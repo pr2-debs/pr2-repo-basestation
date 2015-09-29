@@ -7,7 +7,7 @@ case "$1" in
   configure)
         . /etc/lsb-release
         
-        echo "deb http://packages.ros.org/pr2/ubuntu ${DISTRIB_CODENAME} basestation" > /etc/apt/sources.list.d/pr2debsbasestation.list
+        echo "deb http://packages.clearpathrobotics.com/pr2-release-public/pr2-0.8.0/ubuntu ${DISTRIB_CODENAME} basestation" > /etc/apt/sources.list.d/pr2debsbasestation.list
     ;;
 
   *)
